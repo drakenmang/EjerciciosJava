@@ -1,0 +1,24 @@
+package com.company;
+
+public class EjercicioArray {
+
+
+    public static void main(String[] args) {
+
+        String nombre1 = "Juanjo, ";
+        String nombre2 = "Yeray, ";
+        String nombre3 = "Andres, ";
+        String nombre4 = "Felipe, ";
+        String nombre5 = "Desiree, ";
+        String nombre6 = "Igor";
+
+        String [] nombres= new String[]{nombre1, nombre2, nombre3, nombre4, nombre5, nombre6};
+
+        for (String nombre : nombres){
+            System.out.print(nombre);
+
+        }
+
+
+    }
+}
