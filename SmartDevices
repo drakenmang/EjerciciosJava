@@ -1,0 +1,50 @@
+package poo.clases;
+
+public class SmartDevices {
+
+
+    //1. atributos
+    String nombre_comercial;
+    String fabricante;
+    String modelo;
+    int year;
+    double memoria;
+    float size;
+    boolean Explodes;
+    boolean iCloudBlock;
+
+    //2. constructores // los constructores son PUBLICOS para poder coger
+    //su informacion desde fuera de la clase.
+    // El constructor Recibe el mismo nombre que la clase
+    public SmartDevices(){}
+
+    public SmartDevices(String nombre_comercial, String fabricante, String modelo, int year, double memoria, float size){
+        this.fabricante = fabricante;
+        this.modelo = modelo;
+        this.year = year;
+        this.memoria = memoria;
+        this.size = size;
+        this.Explodes = Explodes;
+        this.iCloudBlock = iCloudBlock;
+    }
+
+
+    //3. metodos (comportamiento)
+
+
+    @Override
+    public String toString() {
+        return "SmartDevices{" +
+                "nombre_comercial='" + nombre_comercial + '\'' +
+                ", fabricante='" + fabricante + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", year=" + year +
+                ", memoria=" + memoria +
+                ", size=" + size +
+                ", Explodes=" + Explodes +
+                ", iCloudBlock=" + iCloudBlock +
+                '}';
+    }
+}
+
+
