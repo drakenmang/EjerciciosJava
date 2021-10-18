@@ -1,0 +1,27 @@
+package poo.clases;
+
+public class Apple extends SmartDevices{
+
+            //Atributos
+    boolean icloudBlock;
+
+    //Constructores
+    public Apple(){}
+    public Apple(String nombre_comercial, String fabricante, String modelo, int year, double memoria, float size, boolean icloudBlock){
+        super(nombre_comercial, fabricante, modelo, year, memoria, size);
+        this.icloudBlock = icloudBlock;
+    }
+
+    @Override
+    public String toString() {
+        return "Apple{" +
+                ", nombre_comercial='" + nombre_comercial + '\'' +
+                ", fabricante='" + fabricante + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", year=" + year +
+                ", memoria=" + memoria +
+                ", size=" + size +
+                ", icloudBlock=" + icloudBlock +
+                '}';
+    }
+}
