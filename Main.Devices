@@ -1,0 +1,19 @@
+package poo.clases;
+
+public class Main {
+
+    public static void main(String[] args){
+
+    //Para crear un objeto: Clase, identificador = new Clase() Esto es la llamada al constructor
+    // Se puede crear un objeto usando el constructor vacio
+        // O se puede crear un objeto usando el constructor con parámetros
+
+        SmartDevices SamsungGalaxyS3 = new Samsung ("Samsung S3", "Samsung", "S3", 2004, 2, 7, false);
+
+        System.out.println(SamsungGalaxyS3);
+
+        SmartDevices AppleiPhone = new Apple("Iphone 1", "Apple", "iPhone1", 2004, 2, 5, false);
+
+        System.out.println(AppleiPhone);
+    }
+}
