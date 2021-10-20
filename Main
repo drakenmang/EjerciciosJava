@@ -1,0 +1,15 @@
+package SinInterfaz;
+
+import Interfaz.cocheCRUD;
+import java.util.List;
+
+public class Main {
+
+    public static void main(String[] args) {
+    CocheCRUD coche = (CocheCRUD) new CocheCRUDImpl();
+    coche.save();
+    coche.findAll();
+    coche.delete();
+
+    }
+}
